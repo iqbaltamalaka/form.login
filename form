@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form.html</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<style type="text/css">
+		body{
+			background-size: 100%;
+			background-color: transparent;
+			opacity: 5;
+		}
+		table{
+			margin-bottom: 50px;
+			color:#b3aeb5;
+			font-style: sans-serif;
+			border-radius: 15px;
+			border-color: #b3aeb5;
+		}
+
+
+		.signup {
+		  background-color: #239b76;
+		}
+
+		.facebook {
+		  background-color: #3b5998;
+		  margin-right: 10px;
+		}
+
+		.twitter {
+		  background-color: #55acee;
+		}
+
+		.btn {
+		  padding: 12px 24px;
+		  color: white;
+		  display: inline-block;
+		  opacity: 0.8;
+		  border-radius: 20px;
+		  text-align: center;
+		}
+
+		.btn.hover {
+		  opacity: 1;
+		}
+
+		.fa {
+		  margin-right: 5px;
+		}
+
+		.btn-wrapper{
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body background="/images/anonymous.jpg">
+<table border="10" cellpadding="10" cellspacing="0" align="center">
+<form>
+	<tr>
+	  <td>
+	<label for="username">username :</label>
+	<input type="text" id="username">
+    </tr>
+      </td>
+ 
+	<br>
+
+	<tr>
+		<td>
+	<label for="x">password :</label>
+	<input type="password" id="x">
+		</td>
+	</tr>
+
+	<br>
+
+	<tr>
+		<td colspan="2">
+	<input type="radio" id="pria" name="jeniskelamin"> <label for="pria">pria</label>
+	<input type="radio" id="wanita" name="jeniskelamin"> <label for="wanita">wanita</label>
+		</td>
+	</tr>
+
+	<br>
+	
+	<tr>
+		<td>
+	<input type="checkbox" id="musik" name="hobi"> <label for="musik">musik</label>
+	<input type="checkbox" id="olahraga" name="hobi"> <label for="olahraga">olahraga</label>
+	<input type="checkbox" id="baca" name="hobi"> <label for="baca">baca</label>
+		</td>
+	</tr>
+
+	<br>
+
+	<tr>
+		<td>
+	<textarea></textarea>
+		</td>
+	</tr>
+    
+    <br>
+
+    <tr>
+    	<td>
+    	<select>
+    	<option>Jakarta</option>
+    	<option>Bogor</option>
+    	<option>Depok</option>
+    	<option>Tangerang</option>
+    	<option>Bekasi</option>
+    	</select>
+    	</td>
+    </tr>
+    	   
+	<tr>
+		<td>
+	<button type="submit">kirim</button>
+		</td>
+	</tr>
+
+</form>
+</table>
+
+<div class="btn-wrapper">
+ <a href="#" class="btn signup">Daftar dengan Email</a>
+ <p>atau</p>
+ <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+ <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+</div>
+
+</body>
+</html>
